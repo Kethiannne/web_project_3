@@ -8,8 +8,13 @@
   text-align: right;
   margin: 0;
   color: #FFF;
+  transition: opacity 1s linear .2s;
 }
 
 .header__lang-link:first-of-type {
   margin-right: 18px;
+}
+
+.header__lang-link:hover {
+  opacity: .7;
 }

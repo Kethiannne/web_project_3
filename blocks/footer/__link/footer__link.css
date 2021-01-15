@@ -2,9 +2,13 @@
   text-decoration: none;
   margin: 0;
   color: #fff;
+  transition: opacity 1s linear .2s;
 }
 
 .footer__link:nth-of-type(2) {
   margin: 0 18px;
 }
 
+.footer__link:hover {
+  opacity: .7;
+}
