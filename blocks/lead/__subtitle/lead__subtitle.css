@@ -12,13 +12,17 @@
 
 @media screen and (min-width: 1280px) {
   .lead__subtitle {
-    margin: 0 auto 64px;
+    margin: /*top*/   0
+            /*sides*/ auto
+            /*bottom*/64px;
   }
 }
 
 @media screen and (max-width: 1280px) {
   .lead__subtitle {
-    margin: 0 auto calc(56px + (64 - 56) * ((100vw - 1024px) / (1280 - 1024)));
+    margin: /*top*/   0
+            /*sides*/ auto
+            /*bottom*/calc(56px + (64 - 56) * ((100vw - 1024px) / (1280 - 1024)));
   }
 }
 
@@ -26,7 +30,9 @@
   .lead__subtitle {
     font-size: 30px;
     line-height: 36px;
-    margin: 0 auto 56px;
+    margin: /*top*/   0
+            /*sides*/ auto
+            /*bottom*/56px;
   }
 }
 
@@ -34,7 +40,9 @@
   .lead__subtitle {
     font-size: calc(16px + (30 - 16) * ((100vw - 320px) / (768 - 320)));
     line-height: calc(20px + (36 - 20) * ((100vw - 320px) / (768 - 320)));
-    margin: 0 auto calc(40px + (56 - 40) * ((100vw - 320px) / (768 - 320)));
+    margin: /*top*/   0
+            /*sides*/ auto
+            /*bottom*/calc(40px + (56 - 40) * ((100vw - 320px) / (768 - 320)));
   }
 }
 
@@ -42,6 +50,8 @@
   .lead__subtitle {
     font-size: 16px;
     line-height: 20px;
-    margin: 0 auto 40px;
+    margin: /*top*/   0
+            /*sides*/ auto
+            /*bottom*/40px;
   }
 }
