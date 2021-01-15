@@ -1,1 +1,9 @@
 @import url(./__lang-link/header__lang-link.css);
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 984px;
+  margin: 0 auto 0;
+  padding-top: 34px;
+}

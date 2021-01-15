@@ -3,3 +3,12 @@
 @import url(./__text/intro__text.css);
 @import url(./__list/intro__list.css);
 @import url(./__list-item/intro__list-item.css);
+@import url(./__list-item/_numbers/intro__list-item_numbers.css);
+
+.intro {
+  width: 690px;
+  margin-top: 92px;
+  margin-right: calc((100% - 690px) * .75);
+  margin-bottom: 92px;
+  margin-left: calc((100% - 690px) * .25);
+}
