@@ -9,3 +9,29 @@
   grid-gap: 16px;
   margin: 0 auto 0;
 }
+
+
+
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+    grid-template-rows: repeat(4, auto);
+    grid-template-columns: repeat(3, auto);
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    grid-template-rows: repeat(6, auto);
+    grid-template-columns: repeat(2, auto);
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid {
+    grid-template-rows: repeat(12, auto);
+    grid-template-columns: repeat(1, auto);
+    max-width: 288px;
+  }
+}

@@ -5,6 +5,31 @@
   line-height: 29px;
   letter-spacing: 0em;
   text-align: left;
-  margin: 0 0 27px 0;
+  margin: 26px 0 0 0;
   max-width: 484px;
+}
+
+.place__paragraph:first-of-type {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__paragraph {
+    max-width: 456px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    max-width: 288px;
+    margin: 26px auto 0;
+  }
 }

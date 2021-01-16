@@ -6,4 +6,11 @@
   letter-spacing: 0em;
   text-align: left;
   margin: 0 0 32px 0;
+  max-width: inherit;
+}
+
+@media screen and (max-width: 320px) {
+  .intro__subtitle {
+    line-height: 30px;
+  }
 }

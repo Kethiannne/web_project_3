@@ -5,5 +5,11 @@
 
 .lead {
   max-width: 984px;
-  margin: auto;
+  margin: 58px auto 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    margin-top: 50px;
+  }
 }
