@@ -1,5 +1,7 @@
 @import url(./__lang-link/header__lang-link.css);
 
+@import url(./__lang-link/_active/header__lang-link_active.css);
+
 .header {
   display: flex;
   align-items: flex-end;
@@ -33,3 +35,4 @@
     padding-top: 20px;
   }
 }
+
