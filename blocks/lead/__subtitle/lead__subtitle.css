@@ -18,10 +18,18 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
   .lead__subtitle {
-    font-size: calc(16px + (30 - 16) * ((100vw - 450px) / (768 - 450)));
-    margin-bottom: calc(40px + (56 - 40) * ((100vw - 450px) / (768 - 450)));
+    font-size: calc(16px + (30 - 16) * ((100vw - 450px) / (769 - 450)));
+    margin-bottom: calc(40px + (56 - 40) * ((100vw - 450px) / (769 - 450)));
+    max-width: 620px;
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .lead__subtitle {
+    max-width: 90%;
   }
 }
 

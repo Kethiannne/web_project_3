@@ -15,9 +15,9 @@
   margin-top: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 710px) {
   .place {
-    max-width: 288px;
+    max-width: 100%;
     flex-direction: column;
     align-content: center;
     margin-top: 49px;

@@ -2,8 +2,7 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 29px;
-  letter-spacing: 0em;
+  line-height: 1.6;
   text-align: left;
   margin: 26px 0 0 0;
   max-width: 484px;
@@ -19,15 +18,14 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 940px) {
   .place__paragraph {
     font-size: 16px;
-    line-height: 26px;
     max-width: 352px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
   .place__paragraph {
     max-width: 288px;
     margin: 26px auto 0;

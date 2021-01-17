@@ -15,6 +15,18 @@
   }
 }
 
+@media screen and (max-width: 800px) {
+  .header {
+    max-width: 94%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .header {
+    max-width: 90%;
+  }
+}
+
 
 @media screen and (max-width: 450px) {
   .header {

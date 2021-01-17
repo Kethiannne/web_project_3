@@ -6,8 +6,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 18px;
-  letter-spacing: 0em;
+  line-height: 1.05;
 }
 
 .footer__link:nth-of-type(2) {
@@ -18,9 +17,9 @@
   opacity: .7;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
   .footer__link {
-    line-height: 24px;
+    line-height: 1;
     font-size: 24px;
   }
   .footer__link:nth-of-type(2) {

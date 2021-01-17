@@ -2,18 +2,23 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 22px;
-  letter-spacing: 0em;
+  line-height: 1.25;
   text-align: center;
   margin: 0 auto auto;
   max-width: 320px;
   z-index: 300;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1024px) {
+  .cover__subtitle {
+    font-size: calc(14px + (18 - 14) * ((100vw - 450px) / (1024 - 450)));
+  }
+}
+
+@media screen and (max-width: 450px) {
   .cover__subtitle {
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.05;
     max-width: 288px;
 }
 }
