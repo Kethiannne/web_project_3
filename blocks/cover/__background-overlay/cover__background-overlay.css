@@ -1,7 +1,6 @@
 .cover__background-overlay {
   background: url(../../../images/cover-route-66.jpg);
   background-position: center;
-  position: relative;
   width: 100%;
   max-width: 1184px;
   min-height: 740px;
