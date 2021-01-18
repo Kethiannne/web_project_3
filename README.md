@@ -17,4 +17,6 @@ This is a project about traveling across the US. I've made it so all the element
 
 Grid formatting and Media Queries were fun to learn, and help this project look its best!
 
+**Deployment**
 
+https://kethiannne.github.io/web_project_3/#
