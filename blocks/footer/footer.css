@@ -4,6 +4,7 @@
 
 .footer {
   width: 94%;
+  max-width: 1184px;
   margin: 92px auto 0;
   padding-bottom: 24px;
   display: flex;
@@ -26,11 +27,10 @@
 
 @media screen and (max-width: 450px) {
   .footer {
-    width: 168px;
     margin-top: 64px;
     margin-left: 16px;
     flex-direction: column;
     align-items: flex-start;
-    height: 198px;
+    min-height: 198px;
   }
 }

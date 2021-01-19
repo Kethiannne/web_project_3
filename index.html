@@ -3,21 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="vendors/normalize.css">
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./pages/index.css">
     <title>From Portland to Portland</title>
 </head>
 <body>
   <div class="page">
-    <main class="positioning-wrapper">
-      <header class="header">
-        <img src="./images/logo.svg" class="logo" alt="logo">
-        <nav>
-          <a class="header__lang-link header__lang-link_active" href="#" lang="en" target="_self">En</a>
-          <a class="header__lang-link" href="#" lang="es" target="_self">Es</a>
-        </nav>
-      </header>
-
+    <header class="header">
+      <img src="./images/logo.svg" class="logo" alt="logo">
+      <div>
+        <a class="header__lang-link header__lang-link_active" href="#" lang="en" target="_blank">En</a>
+        <a class="header__lang-link" href="#" lang="es" target="_blank">Es</a>
+      </div>
+    </header>
+    <main>
       <section class="lead">
         <h1 class="lead__title">
           From Portland to Portland
@@ -26,12 +24,12 @@
         <p class="lead__subtitle">
           An epic bicycle journey from Portland, ME. to Portland, OR
         </p>
-
-        <img class="lead__image" src="./images/lead-mountains.jpg" alt="mountains">
-
-        <p class="lead__caption">
-          Your journey starts here
-        </p>
+        <figure>
+          <img class="lead__image" src="./images/lead-mountains.jpg" alt="mountains">
+          <figcaption class="lead__caption">
+            Your journey starts here
+          </figcaption>
+        </figure>
       </section>
 
       <article class="intro">
@@ -55,16 +53,16 @@
 
         <ul class="intro__list">
           <li class="intro__list-item">
-            Distance (miles) <span class="intro__list-item intro__list-item_numbers">3,644</span>
+            Distance (miles) <span class="intro__list-numbers">3,644</span>
           </li>
           <li class="intro__list-item">
-            Travel time (days) <span class="intro__list-item intro__list-item_numbers">22</span>
+            Travel time (days) <span class="intro__list-numbers">22</span>
           </li>
           <li class="intro__list-item">
-            Highest point (feet) <span class="intro__list-item intro__list-item_numbers">9,613</span>
+            Highest point (feet) <span class="intro__list-numbers">9,613</span>
           </li>
           <li class="intro__list-item">
-            Lowest point (feet) <span class="intro__list-item intro__list-item_numbers">-3</span>
+            Lowest point (feet) <span class="intro__list-numbers">-3</span>
           </li>
         </ul>
       </article>
@@ -114,14 +112,14 @@
             Maine
           </h2>
 
-          <nav class="place__website">
+          <div class="place__website">
             <p class="place__url-heading">
               URL
             </p>
-            <a class="place__link" href="https://global.llbean.com/shop/L.L.Bean-Continental-Rucksack/122952.html?bc=50-816&csp=f&feat=816-GN1" target="_self">
+            <a class="place__link" href="https://global.llbean.com/shop/L.L.Bean-Continental-Rucksack/122952.html?bc=50-816&csp=f&feat=816-GN1" target="_blank">
               global.llbean.com
             </a>
-          </nav>
+          </div>
           <img class="place__image" src="./images/place-maine.jpg" alt="Maine">
           <div>
             <p class="place__paragraph">
@@ -146,14 +144,14 @@
             New Hampshire
           </h2>
 
-          <nav class="place__website">
+          <div class="place__website">
             <p class="place__url-heading">
               URL
             </p>
-            <a class="place__link" target="_self" href="https://www.timberland.com/timberlandpro.html">
+            <a class="place__link" target="_blank" href="https://www.timberland.com/timberlandpro.html">
               timberland.com
             </a>
-          </nav>
+          </div>
 
           <img class="place__image" src="./images/place-new-hampshire.jpg" alt="New Hampshire">
           <div>
@@ -182,14 +180,14 @@
             New York
           </h2>
 
-          <nav class="place__website">
+          <div class="place__website">
             <p class="place__url-heading">
               URL
             </p>
-            <a class="place__link" target="_self" href="https://www.ge.com/about-us">
+            <a class="place__link" target="_blank" href="https://www.ge.com/about-us">
               ge.com
             </a>
-          </nav>
+          </div>
 
           <img class="place__image" src="./images/place-new-york.jpg" alt="New York">
           <div>
@@ -214,14 +212,14 @@
             Erie, PA
           </h2>
 
-          <nav class="place__website">
+          <div class="place__website">
             <p class="place__url-heading">
               URL
             </p>
-            <a class="place__link" target="_self" href="https://www.fws.gov/refuge/erie">
+            <a class="place__link" target="_blank" href="https://www.fws.gov/refuge/erie">
               www.fws.gov
             </a>
-          </nav>
+          </div>
 
           <img class="place__image" src="./images/place-pennsylvania.jpg" alt="Erie">
           <div>
@@ -251,14 +249,14 @@
             Ohio
           </h2>
 
-          <nav class="place__website">
+          <div class="place__website">
             <p class="place__url-heading">
               URL
             </p>
-            <a class="place__link" target="_self" href="https://www.cedarpoint.com">
+            <a class="place__link" target="_blank" href="https://www.cedarpoint.com">
               cedarpoint.com
             </a>
-          </nav>
+          </div>
 
           <img class="place__image" src="./images/place-ohio.jpg" alt="Ohio">
           <div>
@@ -282,7 +280,7 @@
 
       <section class="cover">
         <a class="cover__background-overlay"
-          href="https://www.nps.gov/nr/travel/route66/maps66.html" target="_self">
+          href="https://www.nps.gov/nr/travel/route66/maps66.html" target="_blank">
 
           <div class="cover__text-wrapper">
             <h2 class="cover__title">
@@ -296,16 +294,16 @@
 
         </a>
       </section>
-
+    </main>
       <footer class="footer">
         <nav class="footer__links">
-          <a class="footer__link" href="https://yandex.com/maps" target="_self">
+          <a class="footer__link" href="https://yandex.com/maps" target="_blank">
             Maps
           </a>
-          <a class="footer__link" href="https://yandex.com/weather/moscow" target="_self">
+          <a class="footer__link" href="https://yandex.com/weather/moscow" target="_blank">
             Weather
           </a>
-          <a class="footer__link" href="https://calendar.yandex.ru" target="_self">
+          <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">
             Calendar
           </a>
         </nav>
@@ -313,7 +311,6 @@
           © 2021. Nate Anderson
         </p>
       </footer>
-    </main>
   </div>
 </body>
 </html>
