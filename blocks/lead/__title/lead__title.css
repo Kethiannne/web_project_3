@@ -15,7 +15,7 @@
   }
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 710px) {
   .lead__title {
     max-width: 90%;
   }

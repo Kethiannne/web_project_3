@@ -24,7 +24,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 610px) {
   .lead__subtitle {
     max-width: 90%;
   }
