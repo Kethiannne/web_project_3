@@ -4,6 +4,7 @@
 @import url(./__caption/lead__caption.css);
 
 .lead {
+  width: 100%;
   max-width: 984px;
   margin: 58px auto 0;
 }
@@ -15,8 +16,3 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  .lead {
-    max-width: 100%;
-  }
-}
