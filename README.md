@@ -1,10 +1,5 @@
 # Project 3: From Portland to Portland
 
-### Overview
-* Intro
-* Figma
-* Techniques
-
 **Intro**
 
 This is a project about traveling across the US. I've made it so all the elements are displayed correctly on popular screen sizes.
@@ -15,8 +10,12 @@ This is a project about traveling across the US. I've made it so all the element
 
 **Techniques**
 
-Grid formatting and Media Queries were fun to learn, and help this project look its best!
+Grid formatting, Flexbox, and Media Queries were fun to learn, and help this project look its best no matter the device!
 
 **Deployment**
 
 https://kethiannne.github.io/web_project_3/#
+
+**Demo**
+
+https://www.loom.com/share/c396a9b855f44a62aa568f712f41b61c?sharedAppSource=personal_library
