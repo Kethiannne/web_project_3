@@ -14,7 +14,7 @@ Grid formatting, Flexbox, and Media Queries were fun to learn, and help this pro
 
 **Deployment**
 
-https://kethiannne.github.io/web_project_3/#
+kethianne-portland.surge.sh
 
 **Demo**
 
