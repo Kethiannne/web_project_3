@@ -22,3 +22,8 @@ kethianne-portland.surge.sh
 **Demo**
 
 https://www.loom.com/share/c396a9b855f44a62aa568f712f41b61c?sharedAppSource=personal_library
+
+
+**Next Steps**
+
+Add translations to the language button functionality to improve page accessibility
